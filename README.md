@@ -33,19 +33,24 @@ Barcadia is a GatsbyJS starter theme that uses Contentful for content managemnt.
 
     Navigate into your new site’s directory and start it up.
 
-    ```shell
+    ````shell
     cd my-barcadia-starter/
     gatsby develop```
+    ````
+
 4.  **Import Content-model.json on Contentful**
-     Make a Json file with .
-    ```{
+    Make a Json file with .
+
+    ````{
       "spaceId": "SPACE_ID",
       "managementToken": "Genreate a mangement token from APIs Tab",
       "contentFile": "content-model.json"
      }```
-    
+
     Then Run this Command
     ```contentful space import --config example-config.json```
+
+    ````
 
 5.  **Open your site**
 
@@ -104,9 +109,9 @@ A quick look at the top-level files and directories
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+-   **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+-   **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 <!-- AUTO-GENERATED-CONTENT:END -->
 
